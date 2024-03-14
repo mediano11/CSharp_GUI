@@ -47,7 +47,7 @@
                     <RowDefinition />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <TextBox Grid.Row="0" VerticalScrollBarVisibility="Auto" Margin="5" FontSize="{Binding ElementName=sliderFontSize, Path=Value, UpdateSourceTrigger=PropertyChanged}" x:Name="inputTextBox" />
+                <TextBox Grid.Row="0" VerticalScrollBarVisibility="Auto" Margin="5" TextWrapping="Wrap" AcceptsTab="True" FontSize="{Binding ElementName=sliderFontSize, Path=Value, UpdateSourceTrigger=PropertyChanged}" x:Name="inputTextBox" />
 
                 <DockPanel Grid.Row="1">
                     <Label Content="Розмір шрифту:"/>
